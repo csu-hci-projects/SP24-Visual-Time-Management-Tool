@@ -1,0 +1,204 @@
+
+\documentclass[sigconf]{acmart}
+
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{Inputs Methods and Ideology of Deep Work Time Management Application}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+
+\author{Jack Jakober}
+\affiliation{%
+  \institution{Colorado State University}
+  \city{Fort Collins}
+  \country{USA}}
+\email{jakober@colostate.edu}
+
+% 
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+% \renewcommand{\shortauthors}{Trovato et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  Time management skills are a very important part of living a healthy and productive life. These skills might involve managing time spent doing deep work : an intensely-focused, distraction-free effort working on a difficult task for any amount of time. Deep work is difficult to do and utilizing the principle of classical conditioning in order to cue the unconscious brain to focus would be extremely beneficial. A study was conducted and it was found that having a time clock system to track the time spent doing deep work was not only more accurate at measuring the time spent on the task, but didn't have a significant effect on a person's ability to focus on the task at hand. This paper provides insight into time management apps as well as their use in deep work applications.
+\end{abstract}
+
+\keywords{Deep Work, Classical Conditioning, HCI, Time Management}
+
+\maketitle
+
+\section{Introduction}
+Deep work is a concept that has been around for a long time but has not been given an official name until 2016, when Cal Newport came out with his book, Deep work: rules for focused success in a distracted world. Deep work is different from other types of productivity as deep work involves complete focus on the task at hand for an extended period of time. It is likely that many people have done this type of work without knowing exactly what deep work is. It is important to note the use of term deep work in this paper is not a direct reference to Cal Newport's book. This paper classifies deep work as any task done with intense focus without distraction for any amount of time. The term deep work is used here because of the popularity of Newport's book, as well as the simple, self-explanatory nature of the term. Since deep work is a relatively intuitive and common form of productivity, it stands to reason that deep work is done whenever one is intensely focusing on a difficult task. However, in today's world, people have have many different tasks that require this kind of intense focus and due to the nature of deep work, keeping track of what tasks one should be working on can be very difficult. In order to manage several deep work related tasks, a good time management system is essential. 
+
+    Before going into more depth on what makes a good time management system, it is important to address the question of whether or not time management systems are actually beneficial. The concept of time management is a relatively new thing that humans have to deal with. As technology and society get more advanced, people have gained more ways to spend their time. The increase in the ways in which people can spend their times comes along with the need to manage that time properly as time is limited. In this philosophical context, having good time management seems to be very important, multiple studies also show that this is the case. One such study was a meta-analysis designed to measure the impact of time management skills on job or academic performance. Not only was it found that time management skills positively impact productivity, but also increase well-being and life satisfaction \cite{work}. It is clear that good time management skills are important and beneficial. It is also the case that good time management applications work to improve time management skills. A study conducted on asynchronous learning during the pandemic found that the built in time management systems in asynchronous learning platforms have a positive effect on time management. 86.3 percent of students said that their asynchronous learning platforms helped them organize their time wisely\cite{covid}. This is most likely due to the fact these platforms give students access to a calendar with all of their due dates that they cannot ignore while using these platforms. Time management skills and time management applications give people higher quality, more productive lives so it is important for people to have to good time management systems to choose from. 
+
+    In order to build a time management application, it is important to build upon the time management methods that people currently use. There have been many studies on the time management tools people use in the past. One such study titled "Group and Individual Time Management Tools: What You Get is Not What You Need", conducted interviews with 16 computer science staff members at a British university \cite{tools}. The study aimed to figure out what time management tools the participants use, why they use them, and what issues people had with them. The results showed that the participants used 4 different types of tools to manage their time. The first tool was human memory, this means that people decide what they should be working on based off nothing but their memory of the things they have to do. The second tool was using objects as reminders, participants might determine what to work on by seeing their unfinished product or seeing a due data on their calendar. The third tool was informal reminders, people might write a to-do list on their phone or use post it notes. The final tool was methodical reminders, these types of reminders consist of things like calendars and planners. People use these tools to remember important dates, keep track of how they spend their time and manage groups of people. 
+
+    Each of the tools mentioned above can be applied in a time management application context. However, some of these methods require more mental effort than others. The human memory method method of managing time is a tricky thing to try and imitate electronically. The application should try to counteract this time management method, allowing people to focus on the task at hand instead of what other tasks they need to do. Using objects as reminders is something that would work very well in an application. Simply having and using a time management application could serve as a reminder for someone to get a task done. If someone continues to use the application over time then this effect would increase as people might associate cues with productivity. The main thing that would stop this method from working would be a poorly designed and ugly application. Informal reminders would be impossible to implement in an application as they are informal. Any attempt to have an application interface with peoples informal reminders would make those reminders formal. The best approach to manage this would be to ignore this tool. This way, people could continue to use their current informal reminders alongside the application, allowing for enhanced time management. Enhancing peoples formal reminders are where a time management applications are most effective. Digital planners and calendars are widely used and their designs could help pave way for a different type of time management application. Overall, a time management application should serve to limit the use of human memory, act as a queue for being productive, and provide people with a formal method for managing their tasks.
+
+    The goal of this paper is not to figure out what makes a good general time management application, but to investigate what makes a good deep work management application. The key difference between a deep work management application and a time management application is that regular a time management application  might include mundane, low effort tasks. The purpose of separating focus-heavy tasks from mundane tasks is to capitalize on the method of using objects as reminders. If the application is only used for deep work related tasks, the application itself will become a queue to not only remind people about what they should be focusing on, but also act as a queue to get people into the deep work head space. This principle is known as classical conditioning,  where a perceived stimuli is associated with an automatic response. Classical conditioning is extremely powerful and can effect on people's health, emotions, and motivation \cite{cond}. Since classical conditioning has been around for such a long time there has been doubt about its scientific validity. However, classical conditioning has been studied extensively in recent years and its principles still remain valid\cite{modern}. The principle of classical conditioning is what makes an application specific to deep work so beneficial. Essentially, the opening of the application and whatever interactions people have in the app could act as a deep psychological queue for intensive focus. 
+
+    The principle of classical conditioning could have a huge impact on productivity and greatly help people focus on deep work related tasks. However, it is unclear as to whether the application that manages deep work would interfere with peoples focus if it were used while in a deep work session. The main point of the study was to examine if the active logging of deep work would interfere with people's ability to focus. The answer to this question will determine how a prototype should be approached. If people find that using a software while in a deep work session is too distracting, then classical conditioning couldn't be utilized in a deep work management application. If using a software while in a deep work session is not distracting, then the application could be taken in a direction that specifically aims to give people queues to focus. The benefits of being able to utilize classical conditioning in this context would be huge. Overtime users would find it easier to focus on the task at hand because their ability to focus is tied to the software. This concept could be taken in several different directions. One such direction would be a selling point for the application, if people find that the application helps them focus, then they might recommend other people to use the app. Another direction would be to make the app subscription based as peoples Pavlovian responses would increase overtime and keep them on the app for longer\cite{clas}. Despite all the good things that could come out of an application designed to manipulate people's subconscious's, there will be no benefit if it turns out that using software distracts people from focusing on the task at hand.
+
+    In order to determine if using an application while doing deep work was harmful. A prototype app was built with support for starting and ending a deep work session. The prototype also supports use any time the user chooses. In the prototype, users can enter in all of the deep work related tasks that they need to accomplish and how many hours they expect to spend on that task. From there, users can select a task and enter in how much time they spent on it, or they could press a button to "clock in" for the task. When users use either of these options, the time remaining of the tasks they were working on goes down, allowing users to plan and manage their time effectively. 
+
+    A study was then conducted which determined that the clock in method of logging deep work did not have a negative effect on focus. This opens up the opportunity for further revisions of the prototype that focus more heavily on the "clocking in" method of logging deep work.
+    
+
+    
+
+
+\section{Related Work}
+There have been many studies in the past that examine the relationship between HCI and productivity. One such study examined how digital, AI based assistants such as Alexa effect a persons productivity at work. The results of this study were that AI tools do have an increase on a workers efficiency and productivity. \cite{alexa} The study also examined the different ways in which AI voice assistants could be utilized. The main findings about the use cases of these tools were that they were not full fledged assistants in the same way that humans are, instead they are best used on very simple tasks\cite{alexa}. The results of this study seem to be relatively obvious as these assistance clearly cannot replace a human, however, the study does suggest that these assistants might be a good option as an input method for my prototype. A user might be able to focus on their deep work more if they can use their voice to control the time clock button. However, do to the lack of a visual aspect in these voice assistants, a Pavlovian response might not be as strong as visual cues are incredibly effective at subconsciously manipulating behavior\cite{visual}.
+
+There have also been different approaches to improving an individuals time management skills. One such approach involves using self-diagnosis as a tool for time management. Essentially, if people are able to receive quick and accurate feedback on their time management skills, it is likely that their time management skills will improve \cite{self}. This concept shines light on a completely different path that this research could have taken. For example, a deep work management application that uses eye tracking in order to let the user know when they are getting distracted from the task at hand. If some sort of negative reinforcement is applied whenever a user looks away from the task at hand, it will not only let them know that they need to get back to work, but will allow them to get better at staying focused over time\cite{negative}.
+
+\section{Methodology}
+\subsection{Participants}
+For the study, ten participants were selected. 6 of the participants were males and 4 were females. The participants ages ranged from 19 to 56. 2 of them were young adults with low paying jobs, 6 of them were college students, and 2 of them were adults with long standing careers. The participants were are volunteers who were not being paid to be apart of the study.
+
+The reason why each participant was chosen is that they all have do an activity that requires intense focus and distraction-free concentration. The deep work related tasks that each of these participants engage in vary heavily. 
+
+For the college students, their deep work tasks involve school work done on a computer. These tasks include things such as writing, math, programming, and studying.
+
+For the two adult participants, their deep work tasks were work related. One of their deep work tasks was writing and the other's deep work task was scheduling a team. 
+
+For the two young adult participants, their deep work tasks were more personal. One of them is trying to learn how to play piano and the other is searching for better jobs. 
+
+\subsection{Apparatus}
+In order to observe each participant interacting with the application, I conducted the experiment for each participant separately in their preferred work environment. Two of them were conducted in their office, 2 of them were conducted in their home, five of them were conducted in the Morgan Library, and one was conducted in a local coffee shop. 
+
+For each participant, I handed them my laptop with the prototype running so that they could use it to log their deep work session. I used the standard apple stopwatch app to observe the amount of time they spent at each stage of the session. Each of the participants varied in the time they spent during their deep work sessions so the time per session varied with each participant. 
+
+The prototype functioned the way it was described above. There were two versions of the prototype that I used in these tests. One where users would clock in to work on a task and the other where users would manual log the time they spent on the task. 
+
+The experiment also required a notebook where I could right down observations during each session.
+
+The environment was also different during each session so it was important that I had a similar angle of viewing the participant in each study. I made sure to keep out of the participants view and not pay attention to the actual work that each participant was doing in order to maintain their privacy. 
+
+It is important to note that most of the sessions lasted from 20-30 minutes as this is an optimal time for a deep work session. I decided to cap the length of each session at 90 minutes as this is an optimal amount of time for a deep work session so further analysis was not needed. 
+
+An audio recording device was also needed to record the post interview with each participant.
+
+\subsection{Procedure}
+I did two sessions on separate days (same time) for each participant. 
+
+During the first sessions I handed them the laptop with the prototype on it and explained how it worked. I allowed 5 minutes for each participant to familiarize themselves with the app and add the task/tasks that they wanted to work on. For the tasks they added, I told them to add 2 hours for the "expected time" part of the task they were adding. I then instructed them to work on what ever they wanted to work on until they felt a need to take a break. After they were done with their session, I instructed them to log the amount of time they spent on their deep work session. I did not tell the participants, but I was timing their deep work session to see what the difference was between their recorded time and the actually time they spent on the tasks. I did not allow the participants to correct this error nor did I tell them about the error. 
+
+During the second session, I once again gave each participant 5 minutes to re-familiarize themselves with the app. I told them in the previous session that I wanted them to work on the same task that they did last time so I had already added the task with an expected time of 2 hours for them. Once the 5 minutes were up, I instructed them to clock-in on the app and then start doing their task. I also told them ahead of time to clock-out once they felt they were done with their session. I recorded the time between them clocking in and when it looked like they started working on the application. Just like before, I did not tell them of any discrepancies between their time measurements and mine.
+
+In both sessions, I observed from a position roughly 3 feet to the left or right of them (depending on environment) and 5 feet behind them. I took notes on how many times they checked their phone during each session and tried my best to write down how many times they looked at the app (I positioned the computer in such a way that they would have to turn their head in order to look at it).
+
+After the second session, I conducted a short verbal interview and asked the following questions.
+1. Which method did you prefer?
+2. Did you feel that clocking in before your session got you in the mood to focus?
+3. Rate how obtrusive each method was on a scale of 1-5. 1 being, you didn't know it was there and 5 being, it was all you could think about. 
+4. How much of an impact do you think me observing you had on you doing your task?
+5. What about the prototype do you think could improve?
+
+
+
+\subsection{Design}
+This experiment had a within subject design with 1 independent with 2 possible values and 2 dependent variables.
+
+The independent variable was the time logging method while the dependent variable were the number of times the participant glanced at the app and the difference in their recorded time working and their actual amount of time spent working.
+
+Overall, I was testing how accurate each method was for logging actual time spent working and how distracting each method was.
+
+
+\section{Results}
+The statistical method I used was a Two Independent Sample T-test to compare the average time error and the number of distractions for each method. 
+For the manual time logging method, 
+    The average time error was 3.016 with a standard deviation of 1.633 and a Standard error mean of 0.51
+    The average number of glances at app was 4.60 with a standard deviation of 3.31 and a standard error mean of 1.05
+
+For the time-clock logging method, 
+    The average time error was 0.709 with a standard deviation of 0.400 and a standard error mean of 0.12
+    The average number of glances at app was 4.10 with a standard deviation of 2.18 and a standard error mean of 0.69
+
+The P value for the average time error was 0.0021 with a T value of 4.26. 
+The P value for the number of glances at app was 0.6946 with a T value of 0.3990
+
+Overall, my results were that the time clock method was much better at logging the actual time spent working on the task. I know that these results are statistical significant because the P value was less than 0.05 meaning that I could reject the null hypothesis. The method of time logging did not have a significant effect on how many times people glanced at the app during their deep work sessions. During my interviews with the participants, I found that the time clock was not distracting and many of them enjoyed using the time clock much more than the manual entry.
+
+\section{Discussion}
+The results of my study were that the time clock method is much more accurate at logging the real amount of time that people spent working on a task. The time clock method also did not seem to distract people from their deep work.
+
+Unfortunately, there were many factors that might have impacted the results of this experiment. Significantly, my presence during their deep work session had a significant effect on how people behaved and used the app. I found from my interviews at the end that people tried harder to focus on their tasks while I was observing them. A potential solution to this problem for future studies might be to film the subject instead of observing them directly. Another thing that might have impacted the results is the fact that I conducted each session on different days. It is likely that people were in different moods and had different capacities for focus during each session. It is difficult to find a way around this due to the nature of deep work. Deep work can be vary intense and exhausting so conducting multiple experiments on the same day with the same participants is not a viable option. 
+
+The design of both apps were not very intrusive so they both had a similar chance of distracting the user while they are working. The time clock method was much more accurate at logging the real amount of time spent on the tasks because most participants logged their time in intervals of 5 minutes. Because most of the participants did this, the actually time and the recorded time was around 3 minutes off (3 minutes is in the middle of 5 minutes). The time clock also was acted as a queue to get people to start focusing right away. The real vs recorded time error for the time clock method should go down as people use the app more. It would be interesting to see what the long term results of using this method are. 
+
+Overall, the results indicate users do not get distracted when the use of the app sandwiches their deep work session. Although I am aware that this result might be screwed because in a real world situation, a user can log their deep work completely separately from the actual session. This study still shows that the time clock method is not that distracting to deep work. 
+
+The results of this experiment open up a whole new world of HCI study involving classical conditioning. In this context, a user should start to associate clocking in on the app with focusing. It is very valuable to know that this deep work management application has room to capitalize on classical conditioning effects. Classical conditioning can also be utilized in other areas of HCI. People are constantly associating different events in the digital world every day and if this is controlled correctly, it could be a very powerful tool for software developers. 
+
+
+
+\section{Conclusion}
+Deep work is an incredibly important part of productivity. Since we currently live in a hyper stimulating world, managing deep work is also very important. There are many different approaches that could have been taken when building a deep work managing application. The starting point was looking at the ways in which people naturally manage their time. From there the function of the app could be devised and input methods were proposed. The idea of classical conditioning seemed like it would be very valuable in the context of doing deep work as having a clear cue to start focusing subconsciously helps the brain focus. It was found that a deep work management application that supports this type of cue would not be detrimental to the quality of the deep work. It was also found that the having users log their time spent using a time clock as opposed to a more traditional method was more accurate when it comes to measuring the time spent in each session. These finding pave way for future research involving deep work management applications and classical conditioning.
+
+
+\begin{thebibliography}{100}
+\bibitem{alexa} Davit Marikyan, Savvas Papagiannidis, Omer F. Rana, Rajiv Ranjan, Graham Morgan,
+“Alexa, let’s talk about my productivity”: The impact of digital assistants on work productivity,
+Journal of Business Research,
+Volume 142,
+2022,
+Pages 572-584,
+ISSN 0148-2963,
+https://doi.org/10.1016/j.jbusres.2022.01.015.
+(https://www.sciencedirect.com/science/article/pii/S014829632200025X)
+
+\bibitem{covid} Koutsabasis, Panayiotis et al. “Perceived Impact of Asynchronous E-Learning After Long-Term Use: Implications for Design and Development.” International Journal of Human–Computer Interaction 27 (2011): 191 - 213.
+
+\bibitem{tools}Blandford, A., Green, T. Group and Individual Time Management Tools: What You Get is Not What You Need. Personal Ub Comp 5, 213–230 (2001). https://doi.org/10.1007/PL00000020
+
+\bibitem{modern}Eelen P. Classical Conditioning: Classical Yet Modern. Psychol Belg. 2018 Jul 26;58(1):196-211. doi: 10.5334/pb.451. PMID: 30479817; PMCID: PMC6194517.
+
+\bibitem{cond}Rehman I, Mahabadi N, Sanvictores T, et al. Classical Conditioning. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK470326/
+
+\bibitem{work}Aeon B, Faber A, Panaccio A. Does time management work? A meta-analysis. PLoS One. 2021 Jan 11;16(1):e0245066. doi: 10.1371/journal.pone.0245066. PMID: 33428644; PMCID: PMC7799745.
+
+\bibitem{negative}Nguyen, Jacques D. ; Grant, Yanabel ; Taffe, Michael A.
+England: Blackwell Publishing Ltd
+British journal of pharmacology, 2021-09, Vol.178 (18), p.3797-3812
+
+\bibitem{self}Sardinha LF, Sousa Á, Leite E, and Carvalho A (2023). Self-diagnosis tool for time management: Proposal and validation. International Journal of Advanced and Applied Sciences, 10(5): 183-194
+
+\bibitem{visual}Raffaele Filieri, Zhibin Lin, Giovanni Pino, Salma Alguezaui, Alessandro Inversini,
+The role of visual cues in eWOM on consumers’ behavioral intention and decisions,
+Journal of Business Research,
+Volume 135,
+2021,
+Pages 663-675,
+ISSN 0148-2963,
+https://doi.org/10.1016/j.jbusres.2021.06.055.
+(https://www.sciencedirect.com/science/article/pii/S0148296321004677)
+
+\bibitem{clas} Bąbel P (2019) Classical Conditioning as a Distinct Mechanism of Placebo Effects. Front. Psychiatry 10:449. doi: 10.3389/fpsyt.2019.00449
+\end{thebibliography}
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.
