@@ -1,1 +1,3 @@
-# SP24-Visual-Time-Management-Tool
+# SP24-Inputs Methods and Ideology of Deep Work Time Management Application
+
+I had a long journey on this project. It took me a while to narrow down exactly what I wanted to do with it. I settled on my idea after a lot of thought. Most of it was done in my head. My expereriment sort of worked out how I wanted it to. I learned a lot about running experiments durring this project. I think that I fully understand how to run expereriemnts from doing this project. I am not proud of my prototype. I could make it look neater and fix a lot of the errors given time. I could have made it look a lot nicer by doing the equivelent of CSS stuff in python tkinter. This is easy, I did not do it. THe fact that I did not do this reflects my poor time management, bad semester, and lazieness and not my understanding of computer science. 
